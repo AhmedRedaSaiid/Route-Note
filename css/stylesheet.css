@@ -1,0 +1,228 @@
+body{
+    /*font-family: "segoe ui light";*/
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  ********** nav bar ************/
+.navbar{
+    background-color:rgba(0,0,0,0.5);
+}
+/*rgba(64, 102, 124,0.5)*/
+.logo{
+    margin: 5px;
+    width: 150px;
+    height:50px;
+}
+.navbar{
+    z-index: 1;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #01A5C5 !important;
+}
+.social_icons i{
+    margin-left: 15px;
+}
+.youtube:hover{
+    color: red!important;
+}
+.twitter:hover{
+    color:  #1DA1F2 !important;
+}
+.facebook:hover{
+    color: #4267B2 !important;
+}
+.google:hover{
+    color: #FF5252 !important;
+}
+
+
+/*************dots side slider********/
+
+
+.side-dots-slider{
+    position: fixed;
+    top: 45%;
+    right: 5%;
+}
+.dot{
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 12px;
+    height: 12px;
+    margin-bottom: 10px;  
+}
+
+
+
+/*  ********** Home Section ************/
+
+
+
+
+#home{
+    height: 110vh;
+    background-image: url(../image/bg-Home.webp);
+    background-size: cover; 
+}
+
+.overlay{
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content img {
+    width: 600px;
+    height: 233px;
+}
+.home-content h4{
+
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-hover:hover{
+    background-color: #F36C21;
+    border-color: white!important;
+    border-radius: 10px;
+
+}
+.btn-hover{
+    color: white;
+    border: 2px white solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+/********* classroom section ********/
+
+
+
+.classroom{
+    background-color: #232323; 
+}
+.classroom span{
+    color: white;
+    margin: 0px 50px;
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+.classroom button{
+    margin-left: 80px;
+}
+.classroom img{
+    width: 60px;
+    height: 60px;
+}
+ 
+/********* key-Features section ********/
+
+.Key-Features1,.Key-Features3,.Key-Features5{
+    background-color: #40667C;
+
+}
+.line-KeyFeatures{
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    background-color: #F36C21;
+}
+
+
+.vector-left{
+    position: relative;
+}
+.circle-foto img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 2px solid rgba(36, 35, 35, 1);
+    position: absolute;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.5);
+    background-color: rgba(36, 35, 35, 1);
+    bottom: 60%;
+    right: 77%;;
+}
+.Vector-right{
+    text-align: left;
+    margin-top: 15%;
+}
+.Vector-right h5{
+    color: #01A5C5;
+    font-size: 25px;
+}
+.Vector-right h6{
+    color:white;
+    font-size: 25px;
+}
+.three-paragragh h6{
+    font-size: 20px;
+}
+.lind-over-text{
+    width: 50px;
+    height:3px;
+    background-color:#01A5C5; 
+}
+.Key-Features2 , .Key-Features4{
+    background-color: #242323;
+}
+
+.circle-foto5 img{
+  position: absolute;
+    right: 50%;
+    top: 50%;
+}
+.people-say{
+    background-color: #242323;
+}
+.carousel-indicators li{
+    width:  1px;
+    height: 1px;
+    padding: 2px;
+    margin: 0px 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+    opacity: 1;
+  
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 1%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon 
+{
+    color: #fff;
+    background-image: none;
+}
+.carousel-indicators .active{
+    background-color: transparent;
+}
+.carousel-indicators{
+    left: 1%;
+    top: 110%;
+}
+.fas{
+    font-size: 20px;
+}
+.Google-Play{
+    background-color: #40667C;
+}
+.contact{
+        background-color: #242323;   
+}
+
+.social_contact a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    
+}
