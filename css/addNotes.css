@@ -1,5 +1,60 @@
 body
 {
     background-color: #242323;
+    font-family: Arial,Helvetica,sans-serif;
 }
 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  ********** nav bar ************/
+.navbar{
+    background-color:rgba(0,0,0,0.5);
+}
+/*rgba(64, 102, 124,0.5)*/
+.logo{
+    margin: 5px;
+    width: 150px;
+    height:50px;
+}
+.navbar{
+    z-index: 1;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #01A5C5 !important;
+}
+.social_icons i{
+    margin-left: 15px;
+}
+.youtube:hover{
+    color: red!important;
+}
+.twitter:hover{
+    color:  #1DA1F2 !important;
+}
+.facebook:hover{
+    color: #4267B2 !important;
+}
+.google:hover{
+    color: #FF5252 !important;
+}
+
+.contact{
+        background-color: #242323;   
+}
+
+.social_contact a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    
+}
+
+.add-note
+{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
