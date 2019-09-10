@@ -98,14 +98,14 @@ body{
 
 .vldform h1 {
     font-size: 40px;
-    color: #552FAB;
+    color: #01a5c5;
     margin: 0px 0px 26px 0px;
 }
 
 .vldform__textbox {
     border: 0;
     outline: 0;
-    border-bottom: 2px #512DA8 solid;
+    border-bottom: 2px #01a5c5 solid;
     font-size: 18px;
     margin-top: 36px;
     padding-bottom: 9px;
@@ -117,7 +117,7 @@ body{
     display: block;
     width: 10px;
     height: 10px;
-    background-color: rebeccapurple;
+    background-color: #01a5c5;
     
 }
 
@@ -125,7 +125,7 @@ body{
     align-self: flex-end;
     margin: 10px 0px;
     font-size: 16px;
-    color: #2E67A9;
+    color: #01a5c5;
 }
 
 .vldform__button {
@@ -134,7 +134,7 @@ body{
     border: 0;
     color: #fff;
     border-radius: 10px;
-    background-image: linear-gradient(#512DA8, #673AB7);
+    background-image: linear-gradient(73deg, rgba(1,165,197,1) 30%, rgba(64,102,124,1) 55%);
     font-size: 22px;
     font-weight: 600;
     font-family: "Nunito Sans";
@@ -148,7 +148,7 @@ body{
 }
 
 .vldform__signup a {
-    color: #6538B5;
+    color: #01a5c5;
     font-weight: 600;
     margin-left: 4px;
 }
