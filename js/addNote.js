@@ -45,7 +45,7 @@ function displayNote(){
     {
         cols+=`<div class="col-md-6 py-4 text-center text-white">
         <h3 class="bg-secondary pb-2">${noteContainer[i].name}</h3>
-        <textarea cols="74">${noteContainer[i].desc}</textarea>
+        <textarea cols="66">${noteContainer[i].desc}</textarea>
         <button onclick="deleteNote(${i})" class="btn btn-danger my-2 mx-2">Delete</button>
         <button onclick="setNote(${i})" class="btn btn-light my-2">Update</button>
     </div>
@@ -97,3 +97,15 @@ function searchRow(term){
     }
     document.getElementById("searchRow").innerHTML= rowSearch;
 }
+
+
+
+
+
+
+
+
+
+
+
+
