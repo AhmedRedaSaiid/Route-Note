@@ -256,10 +256,7 @@ body{
     align-items: center;
 }
 
-.home-content img {
-    width: 600px;
-    height: 233px;
-}
+
 .home-content h4{
 
     font-family: 'Annie Use Your Telescope', cursive;
@@ -289,18 +286,10 @@ body{
     background-color: #232323; 
 }
 .classroom span{
-    color: white;
-    margin: 0px 50px;
-    font-size: 25px;
-    letter-spacing: -1px;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
-.classroom button{
-    margin-left: 80px;
-}
-.classroom img{
-    width: 60px;
-    height: 60px;
-}
+
  
 /********* key-Features section ********/
 
@@ -356,8 +345,8 @@ body{
 
 .circle-foto5 img{
   position: absolute;
-    right: 50%;
-    top: 50%;
+    right: 40%;
+    top: 30%;
 }
 .people-say{
     background-color: #242323;
